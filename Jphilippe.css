@@ -1,0 +1,206 @@
+#home{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#bienvenue{
+    background-color: #6495ED;
+    width: 1366px;
+    height: 640px;
+    margin-top: -60px;
+    margin-left: -8px
+}
+
+#img{
+    width: 160px;
+    height: 160px;
+    margin-left: 60px;
+    border-radius: 25px;
+    top: 30px;
+    position: absolute;
+    
+}
+
+
+#texte{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size:72;
+    text-align: center;
+    margin-top: 400px;
+    width: 700px;
+    margin-left: 300px;
+    background-color: #6495ED;
+    position: absolute;
+}
+
+
+#fonction{
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+    margin-left: 460px;
+    font-size:25px;
+}
+
+
+nav {
+    background: #262B37;
+    text-align: center;
+    position: absolute;
+    width: 1366px;;
+    bottom: 0;
+    z-index: 1;
+    font-family: 'Titillium Web', sans-serif;
+    height: 90px;
+    margin-left: -8px;
+}
+
+nav #menu li {
+    display: inline-block;
+    opacity: 0.8;
+}
+
+nav #menu .active {
+    opacity: 1;
+    /*background: #0E1628;*/
+    border-bottom: 4px solid #fff;
+    margin-bottom: 6px;
+}
+
+nav #menu li a:hover  {
+    border-bottom: 4px solid #2bb3dd;
+    opacity: 1;
+}
+
+nav #menu li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    opacity: 0.4;
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.navFix {
+    position: fixed;
+    bottom: auto;
+    top: 570;
+    z-index: 3;
+}
+
+nav #langues {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    z-index: 2;
+}
+
+nav #langues li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav #langues li:nth-child(2) {
+    border-right: none;
+}
+
+nav #langues li a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+nav #langues li .select{
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    text-align: center;
+}
+
+nav #langues li a:hover {
+    opacity: 1;
+}
+
+#first{
+    margin-top: 70px;
+    background-color: white;
+    margin-left: 212px;
+    width: 900px;
+    height: 1100px;
+    text-align: center;
+}
+
+#propos{
+    color: black;
+    font-size: 32px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#trait1{
+    color: silver;
+    width: 90px;
+    margin-left: 400px;
+}
+
+#photo{
+    width: 250px;
+    height: 250px;
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 120px;
+}
+
+#mp{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: gray;
+    padding-top: 5px;
+}
+
+#intro{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#introtext{
+    font-family: 'Economica', sans-serif;
+    font-size: 20px;
+}
+
+#button{
+    border: 2px solid #262B37;
+    border-radius: 3px;
+    margin-left: 300px;
+    outline: none;
+    text-decoration: none;
+    color: #262B37;
+    padding: 20px;
+}
+
+#intro a:hover{
+    background-color: #262B37;
+    color: white;
+}
+
+#second{
+    background-color: lavender;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#skills{
+    color: black;
+    font-size: 32px;
+    font-family: 'Thasadith', sans-serif;
+}
